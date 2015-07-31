@@ -1,9 +1,7 @@
 {
   "name": "ngmaterializedashboard",
   "version": "0.0.0",
-  "dependencies": {
-    "ngm": "https://github.com/pfitzpaddy/ngmaterialize-dashboard-framework.git"
-  },
+  "dependencies": {},
   "devDependencies": {
     "grunt": "^0.4.1",
     "grunt-autoprefixer": "^0.7.3",
