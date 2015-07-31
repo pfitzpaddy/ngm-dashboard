@@ -24,7 +24,7 @@
 
 'use strict';
 
-angular.module('ngm.widget.linklist', ['ngm.provider'])
+angular.module('ngm.widget.linklist', ['ngm.provider', 'countTo'])
   .config(function(dashboardProvider){
     dashboardProvider
       .widget('linklist', {
@@ -32,9 +32,9 @@ angular.module('ngm.widget.linklist', ['ngm.provider'])
         description: 'Displays a list of links',
         controller: 'linklistCtrl',
         controllerAs: 'list',
-        templateUrl: '{widgetsPath}/linklist/src/view.html',
+        templateUrl: 'scripts/widgets/linklist/src/view.html',
         edit: {
-          templateUrl: '{widgetsPath}/linklist/src/edit.html',
+          templateUrl: 'scripts/widgets/linklist/src/edit.html',
           reload: false,
           controller: 'linklistEditCtrl'
         }

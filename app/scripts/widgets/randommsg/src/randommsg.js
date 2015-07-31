@@ -30,7 +30,7 @@ angular.module('ngm.widget.randommsg', ['ngm.provider'])
       .widget('randommsg', {
         title: 'Random Message',
         description: 'Display a random quote of Douglas Adams',
-        templateUrl: '{widgetsPath}/randommsg/src/view.html',
+        templateUrl: 'scripts/widgets/randommsg/src/view.html',
         controller: 'randommsgCtrl'
       });
   })

@@ -19,9 +19,9 @@ angular
     'ngm',
     'ngm.widget.linklist',
     'ngm.widget.randommsg'
-
   ])
   .config(function ($routeProvider) {
+
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
